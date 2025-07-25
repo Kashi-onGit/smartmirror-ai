@@ -1,0 +1,7 @@
+opencv-python
+requests
+tk
+geocoder
+python-dotenv
+imaplib2
+email-validator
