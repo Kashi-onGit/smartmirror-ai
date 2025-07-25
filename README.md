@@ -36,63 +36,77 @@ This project is an intelligent smart mirror interface that uses real-time face d
 
 ### 📁 Clone the repo
 
-bash
-`git clone https://github.com/Kashi-onGit/smartmirror-ai.git
-cd smartmirror-ai`
+```bash
+git clone https://github.com/Kashi-onGit/smartmirror-ai.git
+cd smartmirror-ai
+```
 
-📦 Install dependencies
-bash
-`
+### 📦 Install dependencies
+
+```bash
 pip install -r requirements.txt
-`
+```
 
-🔐 Create .env file
-Create a .env file in the root directory:
+### 🔐 Create `.env` file
 
-Content of .env file
-`OPENWEATHER_API_KEY=your_openweathermap_api_key
+Create a `.env` file in the root directory:
+
+```env
+OPENWEATHER_API_KEY=your_openweathermap_api_key
 EMAIL_ADDRESS=your_email@gmail.com
-EMAIL_PASSWORD=your_email_password`
-⚠️ Don't upload this file to GitHub!
+EMAIL_PASSWORD=your_email_password
+```
 
-▶️ Run the Project
-bash
-`python main.py`
-## 📁 File Structure
-
-smartmirror-ai/
-├── main.py # Main application UI logic
-├── face.py # Face detection handler
-├── greetings.py # Time-based greetings
-├── newsx.py # News fetching logic
-├── mail_list.py # Email summary
-├── weather.py # Weather information
-├── .env # (Not uploaded) Secrets file
-├── requirements.txt # All dependencies
-├── README.md # Project documentation
-└── .gitignore # Prevents secrets/files from being tracked
-
-Copy
-Edit
-
-📸 Demo Preview
-
-![SmartMirror UI](screenshot/SmartMirror.JPG)
+> ⚠️ Keep this file secret. It should not be pushed to GitHub.
 
 ---
 
-🙌 Acknowledgements
-ChatGPT
+### ▶️ Run the Project
 
-OpenCV
+```bash
+python main.py
+```
 
-OpenWeatherMap
+---
 
-Google News API
+## 📁 File Structure
 
-Python community
+```
+smartmirror-ai/
+├── main.py             # Main application UI logic
+├── face.py             # Face detection handler
+├── greetings.py        # Time-based greetings
+├── newsx.py            # News fetching logic
+├── mail_list.py        # Email summary
+├── weather.py          # Weather information
+├── .env                # (Not uploaded) Secrets file
+├── requirements.txt    # All dependencies
+├── README.md           # Project documentation
+└── .gitignore          # Prevents secrets/files from being tracked
+```
 
-✉️ Contact
-Kashi Nath Chourasia
-📧 kashi533864@gmail.com
+---
 
+## 📸 Demo Preview
+
+![SmartMirror Demo](screenshot/SmartMirror.JPG)
+
+---
+
+
+## 🙌 Acknowledgements
+
+- [OpenCV](https://opencv.org/)
+- [ChatGPT](https://chatgpt.com/)
+- [OpenWeatherMap](https://openweathermap.org/api)
+- [NewsAPI](https://newsapi.org/)
+- [Python.org](https://www.python.org/)
+
+---
+
+## ✉️ Contact
+
+**Kashi Nath Chourasia**  
+📧 [kashi533864@gmail.com](mailto:kashi533864@gmail.com)  
+
+---
