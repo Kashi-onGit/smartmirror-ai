@@ -36,34 +36,31 @@ This project is an intelligent smart mirror interface that uses real-time face d
 
 ### 📁 Clone the repo
 
-```bash
-git clone https://github.com/Kashi-onGit/smartmirror-ai.git
-cd smartmirror-ai
+bash
+`git clone https://github.com/Kashi-onGit/smartmirror-ai.git
+cd smartmirror-ai`
+
 📦 Install dependencies
 bash
-Copy
-Edit
+`
 pip install -r requirements.txt
+`
+
 🔐 Create .env file
 Create a .env file in the root directory:
 
-env
-Copy
-Edit
-OPENWEATHER_API_KEY=your_openweathermap_api_key
+Content of .env file
+`OPENWEATHER_API_KEY=your_openweathermap_api_key
 EMAIL_ADDRESS=your_email@gmail.com
-EMAIL_PASSWORD=your_email_password
+EMAIL_PASSWORD=your_email_password`
 ⚠️ Don't upload this file to GitHub!
 
 ▶️ Run the Project
 bash
-Copy
-Edit
-python main.py
+`python main.py`
+
 📌 File Structure
-bash
-Copy
-Edit
+
 smartmirror-ai/
 ├── main.py               # Main application UI logic
 ├── face.py               # Face detection handler
@@ -75,17 +72,18 @@ smartmirror-ai/
 ├── requirements.txt      # All dependencies
 ├── README.md             # Project documentation
 └── .gitignore            # Prevents secrets/files from being tracked
-📸 Demo Preview (Optional)
-(Add screenshots later here)
 
-markdown
-Copy
-Edit
-![SmartMirror UI](screenshots/smartmirror_ui.png)
-📄 License
-This project is open source under the MIT License.
+---
+
+📸 Demo Preview
+
+![SmartMirror UI](screenshot/SmartMirror.JPG)
+
+---
 
 🙌 Acknowledgements
+ChatGPT
+
 OpenCV
 
 OpenWeatherMap
@@ -97,5 +95,4 @@ Python community
 ✉️ Contact
 Kashi Nath Chourasia
 📧 kashi533864@gmail.com
-🔗 LinkedIn
 
