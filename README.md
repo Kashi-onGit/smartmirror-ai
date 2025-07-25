@@ -60,7 +60,6 @@ bash
 `python main.py`
 
 📌 File Structure
-
 smartmirror-ai/
 ├── main.py               # Main application UI logic
 ├── face.py               # Face detection handler
@@ -72,9 +71,6 @@ smartmirror-ai/
 ├── requirements.txt      # All dependencies
 ├── README.md             # Project documentation
 └── .gitignore            # Prevents secrets/files from being tracked
-
----
-
 📸 Demo Preview
 
 ![SmartMirror UI](screenshot/SmartMirror.JPG)
