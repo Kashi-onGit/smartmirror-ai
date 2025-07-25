@@ -58,19 +58,23 @@ EMAIL_PASSWORD=your_email_password`
 ▶️ Run the Project
 bash
 `python main.py`
+## 📁 File Structure
 
-📌 File Structure
 smartmirror-ai/
-├── main.py               # Main application UI logic
-├── face.py               # Face detection handler
-├── greetings.py          # Time-based greetings
-├── newsx.py              # News fetching logic
-├── mail_list.py          # Email summary
-├── weather.py            # Weather information
-├── .env                  # (Not uploaded) Secrets file
-├── requirements.txt      # All dependencies
-├── README.md             # Project documentation
-└── .gitignore            # Prevents secrets/files from being tracked
+├── main.py # Main application UI logic
+├── face.py # Face detection handler
+├── greetings.py # Time-based greetings
+├── newsx.py # News fetching logic
+├── mail_list.py # Email summary
+├── weather.py # Weather information
+├── .env # (Not uploaded) Secrets file
+├── requirements.txt # All dependencies
+├── README.md # Project documentation
+└── .gitignore # Prevents secrets/files from being tracked
+
+Copy
+Edit
+
 📸 Demo Preview
 
 ![SmartMirror UI](screenshot/SmartMirror.JPG)
